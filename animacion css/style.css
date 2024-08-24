@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: black;
+    color: #ccc;
+    align-content: center;
+    height: 100dvh;
+
+
+}
+.load{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+.dev{
+    display: flex;
+    justify-content: center;
+}
+    .lod{
+        width: 20px;
+        height: 20px;
+        display: block;
+        background: cyan;
+        margin: 10px;
+        border-radius: 10px;
+animation: 2s load infinite;
+    }
+    .e1{
+        animation-delay: .4s;
+    }
+    .e2{
+        animation-delay: .6s;
+    }
+    .e3{
+        animation-delay: .7s;
+    }
+
+
+}
+
+@keyframes load {
+ 0%{
+    scale: 0;
+ }   
+ 50%{
+    scale: 1;
+ }
+ 100%{
+    scale: 0;
+ }
+}
+p{
+    font-size: 21px;
+}
